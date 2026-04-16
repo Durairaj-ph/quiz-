@@ -1,0 +1,13 @@
+
+body{background:linear-gradient(215deg,rgb(154, 210, 243),rgb(206, 185, 255));height:100vh;width: 100vw;display: flex;justify-content: center;margin: 10px 0 0 0;}
+.theme{position: absolute;height: 40px;width: 90px;top: 90%;border-radius: 5px;border: 1px solid rgb(0, 0, 0);background: linear-gradient(360deg,rgb(253, 124, 253),rgb(228, 178, 248));color: white;}
+.language{height: 10%;width: 80%;}
+.question-box{height:70%;width: 90%;max-width: 700px;background-color: rgba(255, 255, 255, 0.4);text-align: center;margin-top: 5%;display: flex;justify-content: flex-start;align-items: center;flex-direction: column;border-radius: 10px;}
+.questions{min-height: 30%;}
+.buttons{height: 80%;width:90%;display:flex;justify-content:center;flex-direction: column;align-items: center;gap: 10px;}
+.yesorno{height: 40%;width:100%;display: flex;margin-top: 2%;justify-content: space-between;}
+.yesorno button{height:100%;width:45%;border-radius: 8px;}
+#yes-btn{background-color:#03b809;color: rgb(255, 255, 255);}
+#no-btn{background-color: rgb(223, 0, 0);color: rgb(255, 255, 255);}
+.prevnext{display: flex;height: 100%;width: 100%;justify-content:space-between;align-items: center;}
+.prevnext button{height:25%;width:40%;margin-top: 35%;border-radius: 8px;background-color: rgb(200, 188, 253);position: relative;}
